@@ -20,3 +20,17 @@ this.
 
 What is the time complexity of your implementation (worst-case $\Theta$)? Add
 your answer, including your reasoning, to this markdown file.
+
+-----------------------------------------------------------------------
+
+The runtime is just $\Theta(n)$
+
+Even though this is asynchronous there is no paralleism that breaks the runtime up so we just need to worry about the single for loop that runs the length of the array checking for value that match the key it has a complexity of $n$
+
+so $\Theta(n)$
+
+Your slides are what I based my code off of, and thank you for helping me with my tests.
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice
+
+
